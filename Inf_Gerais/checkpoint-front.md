@@ -20,6 +20,7 @@ A equipe (de até 5 pessoas) deverá desenvolver um site com base no **caso da V
 ## 🔧 Itens obrigatórios
 
 ### 📄 Estrutura HTML
+
 - Uso de **headings** (`h1` a `h6`) e **parágrafos**
 - Pelo menos uma **lista** (`ul` ou `ol`)
 - Pelo menos uma **tabela HTML**
@@ -30,21 +31,25 @@ A equipe (de até 5 pessoas) deverá desenvolver um site com base no **caso da V
   - Uso de `label` associado aos campos
 
 ### 🌐 HTML Semântico e SEO
+
 - Uso de **tags semânticas**: `header`, `main`, `nav`, `footer`, `section`, etc.
 - Inserção de **meta tags** no `<head>`:
   - `meta keywords`
   - `meta description`
 
 ### 🎨 CSS
+
 - Uso de **classes e ids**
 - Aplicação do **Box Model** (`margin`, `padding`, `border`)
 - Uso de pelo menos um tipo de **position** (`static`, `relative`, `absolute` ou `fixed`)
 
 ### 📷 Multimídia
+
 - Pelo menos uma **imagem** por página
 - Um **vídeo** inserido (pode ser do YouTube)
 
 ### 🧭 Navegação
+
 - Menu de navegação funcional presente em todas as páginas
 - Links internos e externos funcionando corretamente
 
@@ -68,11 +73,13 @@ vinharia-agnello/
 │       ├── pagina2.html
 │       ├── ...
 ```
+
 ---
 
 ## 📄 README.md
 
 O arquivo `README.md` deve conter:
+
 - Nome do projeto
 - Breve descrição do caso da Vinharia Agnello
 - Estrutura do projeto (explicação das páginas)
@@ -93,14 +100,14 @@ O arquivo `README.md` deve conter:
 
 ## 🧪 Critérios de Avaliação
 
-| Critério                         | Pontuação |
-|----------------------------------|-----------|
-| Estrutura do site (organização) | 20 pts    |
-| Estética e organização visual   | 20 pts    |
-| Qualidade do código HTML/CSS    | 20 pts    |
-| Conteúdo e aplicação dos recursos | 20 pts  |
-| Trabalho em equipe / commits     | 20 pts    |
-| **Total**                        | **100 pts** |
+| Critério                          | Pontuação   |
+| --------------------------------- | ----------- |
+| Estrutura do site (organização)   | 20 pts      |
+| Estética e organização visual     | 20 pts      |
+| Qualidade do código HTML/CSS      | 20 pts      |
+| Conteúdo e aplicação dos recursos | 20 pts      |
+| Trabalho em equipe / commits      | 20 pts      |
+| **Total**                         | **100 pts** |
 
 ---
 
