@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+label{
+    padding-left: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+span{
+    padding-left: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mensagem{
+    padding-left: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+textarea{
+    display: block;
+    margin: auto;
+    padding-left: 156px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+button{
+    display: block;
+    margin-left: 1060px;
+}
+
+#insta{
+    margin-top: 400px;
+    margin-left: 200px;
+    
+}
+
+#arroba{
+    position: relative;
+    bottom: 33px;
+    left: 245px;
+}
+
