@@ -1,12 +1,22 @@
-h1{
+form{
+    margin-top: 50px;
+}
+
+legend{
     text-align: center;
-    padding-top: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    width: 350px;
 }
 
 label{
     padding-left: 800px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input{
+    padding-right: 150px;
+    padding-bottom: 5px;
 }
 
 span{
@@ -20,26 +30,56 @@ span{
 }
 
 textarea{
-    display: block;
-    margin: auto;
-    padding-left: 156px;
+    display: relative;
+    margin-left: 798px;
+    padding-left: 10px;
+    padding-right: 200px;
+    padding-bottom: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
 }
 
 button{
-    display: block;
-    margin-left: 1060px;
+    position: relative;
+    left: 1108px;
+    bottom: 10px;
+}
+
+ul{
+    position: relative;
+    top: 250px;
+    left: 175px;
+    list-style: none;
+    font-size: 20px;
 }
 
 #insta{
-    margin-top: 400px;
-    margin-left: 200px;
+    margin-top: 280px;
+    margin-left: 213px;
     
 }
 
-#arroba{
+#arrobaInst{
     position: relative;
-    bottom: 33px;
-    left: 245px;
+    bottom: 22px;
+    left: 250px;
 }
 
+#face{
+    margin-left: 213px;
+}
+
+#arrobaFace{
+    position: relative;
+    bottom: 22px;
+    left: 250px;
+}
+
+#x{
+    margin-left: 213px;
+}
+
+#arrobaX{
+    position: relative;
+    bottom: 22px;
+    left: 250px;
+}
