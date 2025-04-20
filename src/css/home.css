@@ -4,6 +4,7 @@ main {
   flex-flow: column;
   align-items: center;
 }
+
 #imagem {
   padding-top: 45px;
   width: 100%;

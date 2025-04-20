@@ -1,51 +1,91 @@
-*{
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+* {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 :root {
-    --cor_primaria: #5E2129;
-    --cor_secundaria: rgb(219, 219, 219);
-    --cor_texto: rgb(68, 32, 32);
+  --cor_primaria: #5e2129;
+  --cor_secundaria: rgb(219, 219, 219);
+  --cor_texto: rgb(68, 32, 32);
 }
 nav {
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    background: var(--cor_primaria);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 45px;
-    box-shadow: 5px rgba(0, 0, 0, 0.397);
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background: var(--cor_primaria);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  box-shadow: 5px rgba(0, 0, 0, 0.397);
+}
+nav {
+  background-color: #5e2129;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav h2#menu {
+  margin: 0;
+}
+
+nav h2#menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+nav h2#menu a:hover {
+  text-decoration: underline;
 }
 #menu a {
-    text-decoration: none;
-    color: var(--cor_secundaria);
-    cursor: pointer;
+  text-decoration: none;
+  color: var(--cor_secundaria);
+  cursor: pointer;
 }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main */
+main {
+  flex: 1;
+  padding: 20px;
+}
+
 footer {
-    height: 100%;
-    background-color: var(--cor_primaria);
-    color: var(--cor_secundaria);
-    width: 100%;
+  background-color: var(--cor_primaria);
+  color: var(--cor_secundaria);
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
 }
-footer hr{
-    color: var(--cor_secundaria);
+footer hr {
+  color: var(--cor_secundaria);
 }
 footer h5 {
-    padding: 10px 0;
-    width: 100%;
-    text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
 }
 .container01-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
-#logo_footer {
-    padding: 15px 0;
+
+footer #logo_footer img {
+  max-width: 100px;
 }
-#logo_footer img {
-    width: 150px;
+
+footer h5 {
+  margin: 10px 0 0;
+  font-size: 14px;
 }
