@@ -53,12 +53,6 @@ body {
   min-height: 100vh;
 }
 
-/* Main */
-main {
-  flex: 1;
-  padding: 20px;
-}
-
 footer {
   background-color: var(--cor_primaria);
   color: var(--cor_secundaria);
