@@ -49,10 +49,6 @@ table th {
   color: #fff;
 }
 
-table tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
 table tr:hover {
   background-color: #a19f9f;
 }
