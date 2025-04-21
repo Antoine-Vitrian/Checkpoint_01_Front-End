@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+  }
+  
+  main {
+    padding: 40px 20px;
+  }
+  
+  .sobre {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .sobre img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    flex: 1 1 400px;
+  }
+  
+  .texto {
+    flex: 1 1 400px;
+  }
+  
+  .texto h2 {
+    color: #800000;
+    margin-bottom: 15px;
+  }
