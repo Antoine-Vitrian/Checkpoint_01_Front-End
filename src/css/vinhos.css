@@ -4,7 +4,8 @@ main h2 {
   text-align: center;
 }
 /* listas */
-ol li {
+ol li,
+ul li {
   font-size: 18px;
   margin: 5px 0;
 }
@@ -22,11 +23,6 @@ ul {
   margin: 50px 555px;
   text-align: left;
   max-width: 600px;
-}
-
-ul li {
-  font-size: 18px;
-  margin: 5px 0;
 }
 
 /* Tabela */
