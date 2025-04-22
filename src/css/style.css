@@ -2,11 +2,13 @@
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 :root {
   --cor_primaria: #5e2129;
   --cor_secundaria: rgb(219, 219, 219);
   --cor_texto: rgb(68, 32, 32);
 }
+
 nav {
   width: 100%;
   height: 60px;
@@ -18,6 +20,7 @@ nav {
   gap: 45px;
   box-shadow: 5px rgba(0, 0, 0, 0.397);
 }
+
 nav {
   background-color: #5e2129;
   padding: 10px 0px;
@@ -39,11 +42,13 @@ nav h2#menu a {
 nav h2#menu a:hover {
   text-decoration: underline;
 }
+
 #menu a {
   text-decoration: none;
   color: var(--cor_secundaria);
   cursor: pointer;
 }
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -59,12 +64,14 @@ footer {
   text-align: center;
   margin-top: 20px;
 }
+
 footer h5 {
   padding: 10px 0;
   width: 100%;
   text-align: center;
   font-size: 14px;
 }
+
 .container01-footer {
   display: flex;
   align-items: center;

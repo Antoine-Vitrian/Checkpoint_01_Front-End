@@ -4,11 +4,12 @@ main h2 {
   text-align: center;
 }
 
-.tit{
-padding-top: 10%;
+.tit {
+  padding-top: 10%;
 }
 
-.secao1, .secao2{
+.secao1,
+.secao2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +24,8 @@ ul li {
   width: 350px;
 }
 
-ol, ul{
+ol,
+ul {
   padding-top: 1%;
   margin-bottom: 8%;
   text-align: left;
