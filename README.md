@@ -17,21 +17,38 @@ pedindo ajuda a FIAP e seus alunos para facilitarem a resolução de seus proble
 
 ## Estruturação das Páginas
 
-#### Github Pages - https://antoine-vitrian.github.io/Checkpoint_01_Front-End/
-
-## Imagens do Projeto
+#### `(Imagens em dark mode do navegador)`
 
 ### Página Inicial
+
 ![Página inicial da Vinharia Agnello, apresentando o banner principal e menu de navegação](src/assets/imgs/readme1.png)
 
 ### Catálogo de Vinhos
+
 ![Página de catálogo com detalhes sobre os vinhos disponíveis, incluindo descrições e características](src/assets/imgs/readme2.png)
 
 ### Galeria de Vinhos
+
 ![Galeria visual dos vinhos selecionados, com imagens e informações destacadas](src/assets/imgs/readme3.png)
 
 ### Sobre a Vinharia
+
 ![Página institucional contando a história e tradição da Vinharia Agnello](src/assets/imgs/readme4.png)
 
 ### Contato
+
 ![Formulário de contato e informações para comunicação com a Vinharia Agnello](src/assets/imgs/readme5.png)
+
+### Nome dos integrantes:
+
+- Caio Nascimento Caminha
+
+- Gabriel Alexandre Fukushima Sakura
+
+- Gusthavo Costa de Melo
+
+- Lucas Oliveira de Mendonça Almeida
+
+- Victor Antonio Teixeira da Silva
+
+### Github Pages - https://antoine-vitrian.github.io/Checkpoint_01_Front-End/

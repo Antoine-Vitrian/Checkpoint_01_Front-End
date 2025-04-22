@@ -130,6 +130,6 @@ O arquivo `README.md` deve conter:
 - [✓] Links internos e externos funcionando
 - [✓] Cada integrante com pelo menos 2 commits
 - [✓] Projeto publicado no GitHub Pages
-- [ ] README completo com informações e links
+- [✓] README completo com informações e links
 
 ---
