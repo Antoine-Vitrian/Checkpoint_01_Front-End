@@ -21,9 +21,17 @@ pedindo ajuda a FIAP e seus alunos para facilitarem a resolução de seus proble
 
 ## Imagens do Projeto
 
+### Página Inicial
+![Página inicial da Vinharia Agnello, apresentando o banner principal e menu de navegação](src/assets/imgs/readme1.png)
 
-![Imagem da pagina inicial do site](src/assets/imgs/readme1.png)
-![Imagem da pagina sobre as informações de vinho do site](src/assets/imgs/readme2.png)
-![Imagem da pagina de galeria de vinhos citados no site](src/assets/imgs/readme3.png)
-![Imagem de "sobre" o site](src/assets/imgs/readme4.png)
-![Imagem de contatar a empresa dona do site](src/assets/imgs/readme5.png)
+### Catálogo de Vinhos
+![Página de catálogo com detalhes sobre os vinhos disponíveis, incluindo descrições e características](src/assets/imgs/readme2.png)
+
+### Galeria de Vinhos
+![Galeria visual dos vinhos selecionados, com imagens e informações destacadas](src/assets/imgs/readme3.png)
+
+### Sobre a Vinharia
+![Página institucional contando a história e tradição da Vinharia Agnello](src/assets/imgs/readme4.png)
+
+### Contato
+![Formulário de contato e informações para comunicação com a Vinharia Agnello](src/assets/imgs/readme5.png)
