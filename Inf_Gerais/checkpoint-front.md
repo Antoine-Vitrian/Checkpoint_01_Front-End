@@ -120,7 +120,7 @@ O arquivo `README.md` deve conter:
 - [✓] Tabela HTML com conteúdo relevante
 - [✓] Formulário com input, textarea e botão
 - [✓] Tags semânticas aplicadas corretamente
-- [ ] Meta tags (`keywords`, `description`) em cada página
+- [✓] Meta tags (`keywords`, `description`) em cada página
 - [✓] Estilos com CSS usando classes e ids
 - [✓] Box Model aplicado (margin, padding, border)
 - [✓] Algum elemento com `position` aplicado
