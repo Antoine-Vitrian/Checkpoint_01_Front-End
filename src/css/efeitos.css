@@ -1,10 +1,7 @@
 @keyframes mover {
     50% {
-        margin-left: 48vw
+        margin-left: 48vw;
     }
-
-    ;
-
     100% {
         margin-left: 0vw;
     }
@@ -12,6 +9,7 @@
 
 nav h2#menu a {
     transition: all 0.5s ease;
+    margin: 0 1rem;
 }
 
 nav h2#menu a:hover {
@@ -22,30 +20,29 @@ nav h2#menu a:hover {
 
 #texto p::first-line {
     color: rgba(150, 28, 6, 0.808);
-
 }
 
 #texto h1::after {
     content: "👍😊👌😊👍";
 }
 
-.left-image,
-.right-image {
+.imagem-esquerda,
+.imagem-direita {
     transition: transform 0.3s ease;
+    margin: 1rem;
 }
 
-.left-image:hover,
-.right-image:hover {
+.imagem-esquerda:hover,
+.imagem-direita:hover {
     transform: rotate(15deg);
 }
 
-.left-image:active {
+.imagem-esquerda:active {
     transform: skew(-15deg);
 }
 
-.right-image:active {
+.imagem-direita:active {
     transform: rotate(-15deg);
-
 }
 
 input[type="checkbox"] {
@@ -53,10 +50,37 @@ input[type="checkbox"] {
     height: 20px;
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease;
+    margin: 0.5rem;
 }
 
 input[type="checkbox"]:checked {
     transform: scale(1.2);
     background-color: #5e2129;
-
 }
+
+/* Animação de despejo de vinho */
+@keyframes despejoVinho {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        transform: rotate(45deg) scale(1.1);
+    }
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+}
+
+/* Efeito de brilho do copo */
+@keyframes brilhoCopo {
+    0% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0.3;
+    }
+}
+

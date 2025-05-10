@@ -1,19 +1,19 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const mainImage = document.getElementById('main-image');
-    const controlAreas = document.querySelectorAll('.control-area');
+    const imagemPrincipal = document.getElementById('imagem-principal');
+    const areasControle = document.querySelectorAll('.area-controle');
 
-    controlAreas.forEach(area => {
+    areasControle.forEach(area => {
         area.addEventListener('click', () => {
-            const imageName = area.getAttribute('data-image');
-            mainImage.src = `../assets/imgs/${imageName}`;
+            const nomeImagem = area.getAttribute('data-imagem');
+            imagemPrincipal.src = `../assets/imgs/${nomeImagem}`;
             
-            mainImage.style.transform = 'scale(1.1)';
+            imagemPrincipal.style.transform = 'scale(1.1)';
             setTimeout(() => {
-                mainImage.style.transform = 'scale(1)';
+                imagemPrincipal.style.transform = 'scale(1)';
             }, 300);
 
-            controlAreas.forEach(a => a.classList.remove('active'));
-            area.classList.add('active');
+            areasControle.forEach(a => a.classList.remove('ativo'));
+            area.classList.add('ativo');
         });
     });
 });

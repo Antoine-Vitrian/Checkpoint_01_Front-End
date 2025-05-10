@@ -49,8 +49,6 @@ footer {
   margin-top: 20px;
 }
 
-
-
 footer h5 {
   padding: 10px 0;
   width: 100%;
@@ -67,4 +65,15 @@ footer #logo_footer img {
   width: 100%;
   text-align: center;
   padding-top: 10px;
+}
+
+.navbar {
+  background-color: #8b0000;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
