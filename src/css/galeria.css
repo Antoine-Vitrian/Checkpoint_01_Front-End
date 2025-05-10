@@ -86,3 +86,65 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
+/* Efeitos de hover na imagem da galeria */
+.janela-galeria img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Efeitos de hover na área de controle */
+.area-controle:hover {
+  background-color: #a52a2a;
+  transform: scale(1.05) rotate(2deg);
+  transition: all 0.3s ease;
+}
+
+/* Efeito do rótulo do vinho */
+.area-controle::before {
+  content: "🍷";
+  margin-right: 12px;
+  font-size: 1.4em;
+}
+
+/* Efeito da descrição do vinho */
+.area-controle::after {
+  content: "Clique para ver";
+  display: block;
+  font-size: 0.9em;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  margin-top: 5px;
+}
+
+.area-controle:hover::after {
+  opacity: 1;
+}
+
+/* Seleção ativa do vinho */
+.area-controle.ativo {
+  background-color: #4a0000;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+/* Animação de despejo de vinho na mudança de imagem */
+.janela-galeria img {
+  transition: transform 0.3s ease;
+}
+
+.janela-galeria img:active {
+  animation: despejoVinho 0.5s ease;
+}
+
+/* Efeito de brilho na janela da galeria */
+.janela-galeria::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 0%, rgba(255,255,255,0.1) 50%, transparent 100%);
+  pointer-events: none;
+  animation: brilhoCopo 3s infinite;
+}
