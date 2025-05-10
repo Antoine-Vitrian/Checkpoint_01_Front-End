@@ -1,0 +1,15 @@
+@keyframes mover{
+    50% {margin-left: 48vw};
+    100% {margin-left: 0vw;}
+}
+nav h2#menu a:hover {
+    border-bottom: 2px solid aliceblue;
+    font-size: 30px;
+    transition: 1s;
+  }
+#texto p::first-line{
+    color: blue;
+}
+#texto h1::after{
+    content: "👍😊👌😊👍";
+}
