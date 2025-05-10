@@ -1,15 +1,62 @@
-@keyframes mover{
-    50% {margin-left: 48vw};
-    100% {margin-left: 0vw;}
+@keyframes mover {
+    50% {
+        margin-left: 48vw
+    }
+
+    ;
+
+    100% {
+        margin-left: 0vw;
+    }
 }
+
+nav h2#menu a {
+    transition: all 0.5s ease;
+}
+
 nav h2#menu a:hover {
     border-bottom: 2px solid aliceblue;
     font-size: 30px;
-    transition: 1s;
-  }
-#texto p::first-line{
-    color: blue;
+    transition: all 0.5s ease;
 }
-#texto h1::after{
+
+#texto p::first-line {
+    color: rgba(150, 28, 6, 0.808);
+
+}
+
+#texto h1::after {
     content: "👍😊👌😊👍";
+}
+
+.left-image,
+.right-image {
+    transition: transform 0.3s ease;
+}
+
+.left-image:hover,
+.right-image:hover {
+    transform: rotate(15deg);
+}
+
+.left-image:active {
+    transform: skew(-15deg);
+}
+
+.right-image:active {
+    transform: rotate(-15deg);
+
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="checkbox"]:checked {
+    transform: scale(1.2);
+    background-color: #5e2129;
+
 }

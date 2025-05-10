@@ -51,7 +51,10 @@ ul {
 .social {
   margin-top: 10px;
   margin-left: 5px;
-  display: flex;
-  align-items: center;
-  gap: 5px;
+  text-align: left;
+}
+
+.social img {
+  display: inline-block;
+  margin-right: 5px;
 }

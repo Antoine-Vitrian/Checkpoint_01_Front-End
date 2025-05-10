@@ -30,6 +30,7 @@ nav h2#menu a {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 #menu a {
   text-decoration: none;
   color: rgb(219, 219, 219);
@@ -38,8 +39,6 @@ nav h2#menu a {
 
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
   min-height: 100vh;
 }
 
@@ -49,6 +48,8 @@ footer {
   text-align: center;
   margin-top: 20px;
 }
+
+
 
 footer h5 {
   padding: 10px 0;

@@ -52,3 +52,5 @@ pedindo ajuda a FIAP e seus alunos para facilitarem a resolução de seus proble
 - Victor Antonio Teixeira da Silva
 
 ### Github Pages - https://antoine-vitrian.github.io/Checkpoint_01_Front-End/
+
+### Efeitos Visuais

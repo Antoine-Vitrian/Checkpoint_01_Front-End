@@ -8,28 +8,23 @@ main h2 {
   padding-top: 10%;
 }
 
-.secao1,
-.secao2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 /* listas */
 ol li,
 ul li {
   padding-bottom: 4%;
   font-size: 18px;
-  margin: 5px 0;
+  margin: auto;
   width: 350px;
 }
 
 ol,
 ul {
   padding-top: 1%;
+  margin: 0 auto;
   margin-bottom: 8%;
   text-align: left;
   max-width: 600px;
+  width: 100%;
 }
 
 ol {
@@ -64,6 +59,11 @@ table tr:hover {
   background-color: #a19f9f;
 }
 
+.checkbox {
+  text-align: left;
+  padding-left: 10px;
+}
+
 .left-image,
 .right-image {
   position: absolute;
@@ -73,11 +73,11 @@ table tr:hover {
 }
 
 .left-image {
-  left: 12px;
+  left: 65px;
   top: 150px;
 }
 
 .right-image {
-  right: 12px;
+  right: 65px;
   top: 150px;
 }
