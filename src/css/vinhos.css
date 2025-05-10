@@ -64,20 +64,20 @@ table tr:hover {
   padding-left: 10px;
 }
 
-.left-image,
-.right-image {
+.imagem-esquerda,
+.imagem-direita {
   position: absolute;
   width: 25%;
   height: auto;
   object-fit: cover;
 }
 
-.left-image {
+.imagem-esquerda {
   left: 65px;
   top: 150px;
 }
 
-.right-image {
+.imagem-direita {
   right: 65px;
   top: 150px;
 }
