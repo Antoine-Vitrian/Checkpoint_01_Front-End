@@ -63,16 +63,16 @@ pedindo ajuda a FIAP e seus alunos para facilitarem a resolução de seus proble
 
 #### Pseudo-classes
 
-- **`:hover`**: Utilizada em links do menu de navegação para alterar o tamanho da fonte e adicionar uma borda inferior ao passar o mouse. (Arquivo: `efeitos.css`)
-- **`:active`**: Aplicada às imagens laterais na página de vinhos para criar efeitos de transformação, como `skew` e `rotate`, ao clicar nelas. (Arquivo: `efeitos.css`)
-- **`:checked`**: Usada em checkboxes na tabela de vinhos para aumentar o tamanho (`scale`) e alterar a cor de fundo quando marcadas. (Arquivo: `efeitos.css`)
+- **`:hover`**: Utilizada em links do menu de navegação para alterar o tamanho da fonte e adicionar uma borda inferior ao passar o mouse. (Arquivo: `efeitos.css`).
+- **`:active`**: Aplicada às imagens laterais na página de vinhos para criar efeitos de transformação, como `skew` e `rotate`, ao clicar nelas. (Arquivo: `efeitos.css`).
+- **`:checked`**: Usada em checkboxes na tabela de vinhos para aumentar o tamanho (`scale`) e alterar a cor de fundo quando marcadas. (Arquivo: `efeitos.css`).
 
 #### Pseudo-elementos
 
-- **`::first-line`**: Aplicado ao primeiro parágrafo da página inicial para alterar a cor da primeira linha do texto. (Arquivo: `efeitos.css`)
-- **`::after`**: Adicionado ao título principal da página inicial para incluir emojis decorativos após o texto. (Arquivo: `efeitos.css`)
+- **`::first-line`**: Aplicado ao primeiro parágrafo da página inicial para alterar a cor da primeira linha do texto. (Arquivo: `efeitos.css`).
+- **`::after`**: Adicionado ao título principal da página inicial para incluir emojis decorativos após o texto. (Arquivo: `efeitos.css`).
 
 #### Animações
 
 - **`@keyframes mover`**: Criada para animar imagens na página inicial, movendo-as horizontalmente em um loop infinito. (Arquivo: `home.css`)
-- **Transições**: Aplicadas em diversos elementos, como links do menu, checkboxes e imagens, para suavizar mudanças de estilo, como transformações e alterações de cor. (Arquivos: `efeitos.css`, `vinhos.css`, `home.css`)
+- **Transições**: Aplicadas em diversos elementos, como links do menu, checkboxes e imagens, para suavizar mudanças de estilo, como transformações e alterações de cor. (Arquivos: `efeitos.css`, `vinhos.css`, `home.css`).
