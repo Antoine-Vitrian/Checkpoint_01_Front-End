@@ -23,31 +23,31 @@ pedindo ajuda a FIAP e seus alunos para facilitarem a resolução de seus proble
 
 #### Página inicial da Vinharia Agnello, apresentando o banner principal e menu de navegação.
 
-![](src/assets/imgs/readme1.png)
+![](src/assets/imgs/readme1pag.png)
 
 ### Catálogo de Vinhos
 
 #### Página de catálogo com detalhes sobre os vinhos disponíveis, incluindo descrições e características.
 
-![](src/assets/imgs/readme2.png)
+![](src/assets/imgs/readme2pag.png)
 
 ### Galeria de Vinhos
 
 #### Galeria visual dos vinhos selecionados, com imagens e informações destacadas.
 
-![](src/assets/imgs/readme3.png)
+![](src/assets/imgs/readme3pag.png)
 
 ### Sobre a Vinharia
 
 #### Página institucional contando a história e tradição da Vinharia Agnello.
 
-![](src/assets/imgs/readme4.png)
+![](src/assets/imgs/readme4pag.png)
 
 ### Contato
 
 #### Formulário de contato e informações para comunicação com a Vinharia Agnello.
 
-![](src/assets/imgs/readme5.png)
+![](src/assets/imgs/readme5pag.png)
 
 ### Nome dos integrantes:
 
