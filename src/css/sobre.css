@@ -3,6 +3,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fdfdfd;
   color: #333;
+  font-size: 18px;
 }
 
 main {
@@ -10,18 +11,16 @@ main {
 }
 
 .img-lat {
-  width: 30%;
   text-align: center;
-  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .img-lat img {
-  margin: 0 auto;
+  width: 30%;
   border-radius: 8px;
 }
 
 .texto {
-  flex: 1 1 400px;
   margin: 0 auto;
   max-width: 600px;
   color: black;
