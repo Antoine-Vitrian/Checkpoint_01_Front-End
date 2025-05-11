@@ -1,60 +1,116 @@
-form {
-  margin-top: 50px;
+fieldset{
+  margin-top: 150px;
 }
 
-legend {
-  padding-left: 60px;
-  text-align: left;
-  font-size: 40px;
-  width: 250px;
+legend{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    width: 350px;
 }
 
-legend,
-label {
-  padding-top: 30px;
+label{
+    padding-left: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-input {
-  padding-right: 150px;
-  padding-bottom: 5px;
+input{
+    padding-right: 150px;
+    padding-bottom: 5px;
 }
 
-#mensagem,
-label,
-textarea,
-legend,
-span,
-.numerotelefone {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+input:focus{
+    outline: none;
+    border: 2px solid rgb(68, 12, 26);
+    border-radius: 4px;
+    padding-right: 150px;
 }
 
-textarea {
-  padding-left: 10px;
-  padding-right: 200px;
-  padding-bottom: 50px;
+span{
+    padding-left: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-ul {
-  width: 300px;
-  padding-bottom: 30px;
-  list-style: none;
-  font-size: 20px;
+select:focus{
+    outline: none;
+    border: 2px solid rgb(68, 12, 26);
+    border-radius: 4px;
 }
 
-.numerotelefone {
-  padding: 60px 0px;
-  margin-left: 5px;
-  text-align: left;
-  font-size: 20px;
+#mensagem{
+    padding-left: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.social {
-  margin-top: 10px;
-  margin-left: 5px;
-  text-align: left;
+#mensagem1:focus{
+    outline: none;
+    border: 2px solid rgb(68, 12, 26);
+    border-radius: 4px;
+    padding-left: 9px;
 }
 
-.social img {
-  display: inline-block;
-  margin-right: 5px;
+textarea{
+    margin-left: 798px;
+    padding-left: 10px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+button{
+   margin-top: 10px;
+   margin-left: 1108px;
+   background-color: rgb(68, 12, 26);
+   color: white;
+   border: 2px solid;
+   border-radius: 4px;
+   padding: 4px;
+}
+button:focus{
+    background-color: white;
+    color: rgb(68, 12, 26);
+    border: 2px solid rgb(68, 12, 26);
+    border-radius: 3px;
+    padding: 4px;
+}
+
+
+ul{
+    margin-top: 150px;
+    margin-left: 175px;
+    list-style: none;
+    font-size: 20px;
+}
+
+#contato{
+    color:rgb(68, 12, 26);
+}
+
+#insta{
+    margin-top: 50px;
+    margin-left: 213px;
+    
+}
+
+#arrobaInst{
+   margin-top: -22px;
+   margin-left: 250px;
+}
+
+#face{
+    margin-left: 213px;
+}
+
+#arrobaFace{
+   margin-top: -22px;
+   margin-left: 250px;
+}
+
+#x{
+    margin-left: 213px;
+}
+
+#arrobaX{
+   margin-top: -22px;
+   margin-left: 250px;
 }
