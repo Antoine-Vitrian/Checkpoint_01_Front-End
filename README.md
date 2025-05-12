@@ -17,8 +17,6 @@ pedindo ajuda a FIAP e seus alunos para facilitarem a resolução de seus proble
 
 ## Estruturação das Páginas
 
-##### `(Imagens em dark mode do navegador)`
-
 ### Página Inicial
 
 #### Página inicial da Vinharia Agnello, apresentando o banner principal e menu de navegação.
